@@ -1,0 +1,182 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  margin-right: 0px;
+}
+body{
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', cursive;
+  position: sticky;
+}
+
+
+.mimg {
+  display:inline-block;
+  background-color: black;
+  width: 100%;
+  background-size: cover;
+}
+/* middle */
+.middle-container{
+  position: relative;
+  width: 100%;
+}
+.middle-container h1 {
+  margin-top: 0px;
+  padding-left: 30vw;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  font-size: 10vw;
+  line-height: 2;
+}
+.head2 {
+  font-weight: normal;
+  color: #66BFBF;
+  font-size: 3vw;
+  margin-left: 20vw;
+  font-family: 'Sacramento', cursive;
+  position: relative;
+  bottom: 7vw;
+}
+
+/* profile */
+
+.profile {
+  width: 100%;
+  background: rgba(2, 2, 2, 0.797);
+  /* background: linear-gradient(0deg,rgb(27, 26, 26) 25%,rgb(190, 179, 179) 5%); */
+}
+
+.cont {
+  margin-top: 0px;
+  width: 100%;
+  padding-left: 100px;
+  background-color: black;
+}
+.pro {
+  text-decoration: underline;
+}
+
+/* skills */
+.skills{
+  height: 110vh;
+  max-height: 130vw;
+  width: 70vw;
+  max-width: 300vw;
+  background-image: url('/Images/skillback.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left:15vw;
+  overflow: hidden;
+  margin-top: 30vh;
+  border-radius: 5vw;
+  justify-items: center;
+  align-content:center;
+  display: inline-block;
+}
+.skills h1 {
+  color: rgb(183, 43, 226);
+  text-decoration: underline;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4vw;
+}
+.inskill {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20vw;
+  display: inline-block;
+  width: auto;
+  min-width: 90vw;
+  height: 50vh;
+  justify-content: space-between;
+  border-radius: 5vw;
+}
+.inskill img {
+  height: 70vh;
+  max-height: 100vw;
+  width: 30vw;
+  max-width: 50vh;
+  justify-content:space-between;
+  border-radius: 5vh;
+  position: relative;
+  left: 7vw;
+  top: 2vh;
+}
+
+/* bottom */
+.bottom-container {
+  width: 100%;
+  background: rgb(63, 251, 103);
+  background: radial-gradient(circle, rgba(63, 251, 103, 0.6843779748227417) 0%, rgba(0, 0, 0, 1) 80%);
+  height: 100vw;
+  display: flex;
+  padding-top: 5vw;
+  margin-top: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bottom-container p
+{
+  color: #EAF6F6;
+}
+
+.foot1 {
+  display: block;
+  align-items: center;
+}
+.absection{
+  color: white;
+  font-size: 1.5vw;
+  text-decoration: underline;
+}
+.footer-link{
+  display: block;
+  color: hotpink;
+  line-height: 1;
+  margin-top: 4vh;
+}
+.foot1 img{
+  border: 2px solid black;
+  height: 8vw;
+  max-height: 10vh;
+  width: 4vw;
+  max-width: 10vw;
+  border-radius: 50%;
+}
+.foot2 {
+  max-width: 50vw;
+  font-size: 1.5vw;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.resume{
+  height: 5vw;
+  width: 15vw;
+  background-color: #adfd3c;
+  border-radius: 4vw;
+  border: 1px solid black;
+  font-size:1.5vw;
+  font-family: 'Pacifico', cursive;
+}
+
+.form-signin {
+  width: auto;
+  height:auto;
+  display: block;
+}
+
+.form-input {
+  display: block;
+  font-size: 1.5vw;
+  width: 20vw;
+  height: 6vh;
+  border-radius: 2vw;
+  border: 1px solid black;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
